@@ -105,9 +105,9 @@ p {
     box-shadow: var(--box-shadow);
 }
 
-@media (max-width:600px) {
+@media (max-width:400px) {
     h1 {
-        font-size: 60px;
+        font-size: 50px;
     }
     h2 {
         font-size: 38px;
@@ -135,5 +135,14 @@ p {
     }
     .h3-about {
         margin-top: 15px;
+    }
+    p {
+        font-size: 12px;
+    }
+    .h2-conctact {
+        font-size: 30px;
+    }
+    .email-link {
+        font-size: 26px;
     }
 }
